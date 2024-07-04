@@ -120,10 +120,35 @@ body{
     margin: 5em 0;
 }
 
+.separacao__footer{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
 .link__footer{
+    padding: 1em;
+    
+}
+
+.fonte__footer{
     font-size: 16px;
     font-weight: 400px;
     font-family: var(--fonte-principal);
+    color: var(--branco-primario);
+    text-decoration: none;
+
+}
+
+.observacao{
+    padding: 1em 0;
+}
+.disclaimer{
+    font-size: 14px;
+    color:var(--cinza-secundario);
+    font-weight: 400;
+    padding: 0.5em 0;
 }
 
 
