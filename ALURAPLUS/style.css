@@ -3,9 +3,132 @@
     --cinza-secundario: #C0C0C0;
     --background: #000000;
     --cor-do-botao: #167BF7;
+    --fonte-principal: 'Inter';
 
 }
 
-.body{
+body{
     background-color: var(--background);
+    color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
+
+.cabecalho{
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+   
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__botao{
+    background-color: var(--cor-do-botao);
+    color: var(--branco-primario);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+   
+}
+.botao_secundario
+{
+    background: transparent;
+    border:solid 2px var(--branco-primario);
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.secundario{
+
+    align-items: center;
+    margin:0 10em;
+}
+.imagem__secundaria{
+
+    width: 80%;
+}
+
+.titulo__secundario{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.segundo__paragrafo{
+    color: var(--cinza-secundario);
+    margin-top: 1em;
+}
+
+.botao_terceiro{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.secao__icones{
+    text-align: center;
+}
+
+
+.lista__icones{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.descricao__icone{
+    text-decoration: none;
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+}
+
+.footer__alura{
+    text-align: center;
+    margin: 5em 0;
+}
+
+.link__footer{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: var(--fonte-principal);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;;
+}
+
