@@ -4,6 +4,8 @@
     --background: #000000;
     --cor-do-botao: #167BF7;
     --fonte-principal: 'Inter';
+    --cor-do-botao-efeito: #064797;
+    --fonte-efeito: rgb(243, 243, 95);
 
 }
 
@@ -129,7 +131,7 @@ body{
 
 .link__footer{
     padding: 1em;
-    
+
 }
 
 .fonte__footer{
@@ -154,6 +156,18 @@ body{
 
 *{
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 
+.link__footer a:hover{
+    color:var(--cor-do-botao);
+}
+
+.link__footer a:active{
+    color: orangered;
+}
+
+.container__botao:hover{
+    background-color: var(--cor-do-botao-efeito);
+    color: var(--fonte-efeito);
+}
